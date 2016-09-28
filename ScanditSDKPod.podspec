@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'ScanditBarcodeScanner.framework'
   s.public_header_files = 'ScanditBarcodeScanner.framework/Headers/*.{h}'
-  s.resources    = 'ScanditBarcodeScanner/ScanditBarcodeScanner.bundle'
+  s.resources    = 'ScanditBarcodeScanner.bundle'
   s.frameworks = [
                     'CoreText',
                     'OpenGLES',

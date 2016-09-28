@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name             = 'ScanditSDKApptitude'
+  spec.name             = 'ScanditSDKPod'
   spec.version          = '0.0.1'
   spec.license          = { :type => 'MIT' }
   spec.homepage         = 'https://github.com/ch-apptitude'

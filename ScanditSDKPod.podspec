@@ -1,11 +1,8 @@
-Pod::Spec.new do |spec|
-  spec.name             = 'ScanditSDKPod'
-  spec.version          = '0.0.1'
-  spec.license          = { :type => 'MIT' }
-  spec.homepage         = 'https://github.com/ch-apptitude'
-  s.license             = { :type => 'Proprietary', :text => <<-LICENSE Apptitude Copyright 2016
-                                                    LICENSE
-                      }
+Pod::Spec.new do |s|
+  s.name             = 'ScanditSDKPod'
+  s.version          = '0.0.1'
+  s.license          = { :type => 'MIT' }
+  s.homepage         = 'https://github.com/ch-apptitude'
   s.authors           = { 
                           'Pierre Brossard' => 'pierre@apptitude.ch'
                         }

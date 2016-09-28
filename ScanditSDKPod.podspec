@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
                         }
   s.source           = { :git => 'https://github.com/ch-apptitude/ScanditSDKPod.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = ScanditBarcodeScanner.framework,
-  s.public_header_files = ScanditBarcodeScanner.framework/Headers/*.h, 
+  s.vendored_frameworks = ScanditBarcodeScanner.framework
+  s.public_header_files = ScanditBarcodeScanner.framework/Headers/*.h
   s.resources    = 'ScanditBarcodeScanner/ScanditBarcodeScanner.bundle'
   s.frameworks = [
                     CoreText,
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                     QuartzCode,
                     SystenConfiguration,
                     MediaPlayer
-                ],
+                ]
  s.libraries = [
                 c++,
                 iconv,

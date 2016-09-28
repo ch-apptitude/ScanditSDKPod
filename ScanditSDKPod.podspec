@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
                     'OpenGLES',
                     'MessageUI',
                     'CoreVideo',
-                    'UIKIT',
+                    'UIKit',
                     'Foundation',
                     'CoreGraphics',
                     'AudioToolbox',
                     'AVFoundation',
                     'CoreMedia',
-                    'QuartzCode',
-                    'SystenConfiguration',
+                    'QuartzCore',
+                    'SystemConfiguration',
                     'MediaPlayer']
   s.libraries = [
                 'c++',

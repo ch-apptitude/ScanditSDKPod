@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'ScanditBarcodeScanner.framework'
   s.public_header_files = 'ScanditBarcodeScanner.framework/Headers/*.h'
   s.resources    = 'ScanditBarcodeScanner.bundle'
+  s.source_files = 'ScanditBarcodeScanner.framework/Headers/*.h'
   s.frameworks = [
                     'CoreText',
                     'OpenGLES',
